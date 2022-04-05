@@ -1,0 +1,211 @@
+- for loop : repeatable if statement
+
+***** Only gets executed if the condition is true. ***********
+
+     for (initialization; Condition ; Iteration ) {
+     statement
+     }
+
+     initialization : starting point
+
+     Condition : ending point, created based on initialization
+
+     Iteration: co-related to Condition. MUST be capable enough to make the condition false
+
+    { } curly braces are blocks in JAVA
+
+    Omer: Can someone from Europe work a company in USA or Canada from home as a SDET? And Why the first letter of "String" is capital letter if we look at the other variables they have all small letters?
+  we have primitives: int,long,double,char...etc
+  String is not primitive, it is Object Type Variable
+  String str = "Java"; we are creating an object
+
+  Java Day17
+  Topics: While & Do-While Loops
+  		Branching Statements
+
+  package name: day17_While_DoWHile
+
+  warmup tasks:
+  	1. Write a program that can return the frequency of a char from a String
+
+  			Ex:
+  				str = "AAABBBC"
+  				ch = 'A'
+
+  			Output:
+  				3
+
+
+  	2. write a program that can return the frequency of the a word Java from the sentence
+
+          Ex:
+              sentence = "JavaJavaJava";
+
+              output: 3
+
+
+             	Str = "JavaJava";
+
+             		substrings:
+             			1. Java  //substring(0, 4)
+             			2. avaJ  //substring(1, 5)
+             			3. vaJa  // substring(2, 2+4 )
+             			4. aJav  // substring(3, 3+4)
+             			5. Java  // substring(4, 4+4)
+
+
+
+          	Str = "Java Java Java Python"
+
+          		Delete 1st Java:
+          				" Java Java Python"
+
+  				Delete 2d Java:
+  						" Java Python"
+
+  				Delete 3rd Java:
+  						"  Python"
+
+
+
+
+  while loop: repeated if statement
+
+  	while(condition){
+  		statement;
+  	}
+
+
+  do -while : JUST DO IT
+
+  		do{
+  			statement;
+  		}while(condition);
+
+
+  branching statements:
+  			break statement: exits the loop & switch
+  			continue statement: skips the current iteration
+
+
+
+  Task:
+  	1. Write a program for the  marriage proposal program asking the user, "Will you marry me?"
+      if the answer is yes, print "Congrats."
+      if the answer is no, print "Goodbye"
+      if the answer is neither yes nor no, print "Invalid answer, please re-enter" and repeat it until the user enters either yes or no
+
+
+      2. You are writing a code for the log-in function of the Cybertek Application, assume that your credentials are:
+                      username: Cydeo
+                      password: Cydeo123
+
+          Ask the user to enter their credentials.
+                  If credentials are matched, your program should print "Logged in."
+                  If the credentials are not matched, the program should allow the user to have three attempts to enter correct credentials and if all three attempts are failed, then print "Your account is locked."
+
+
+
+      	for(int i = 1; i <= 3; i++){
+
+      		if(valid){
+      			sout("Loged In")
+      			break;
+      		}
+
+      		if( i==3){
+      			sout(Your account is locked)
+      		}
+
+      	}Java Day18
+         Topic: Nested Loop
+
+         package name: day18_Nested Loop
+
+         warmup tasks:
+                 1.  Write a program that can divide two positive numbers without using / (division) and * (multiplication) and % operators
+
+                                 20 / 6 ==> 3 with the reaminder of 2
+
+
+                                 a = 20
+                                 b = 6;
+
+
+                                 a -= b;  // a = 14
+                                 a -= b;  // a = 8
+                                 a -= b;  // a = 2
+
+
+                                 x = 100;
+                                 y = 8;
+
+                                 while(a >= b){
+                                         a -= b;
+                                         count++;
+                                 }
+
+                 2. You are writing a code for the log-in function of the Cydeo Application, assume that your credentials are:
+                                     username: Cydeo
+                                     password: WoodenSpoon
+
+                         Ask the user to enter their credentials.
+                                 If credentials are matched, your program should print "Logged in."
+                                 If the credentials are not matched, the program should allow the user to have three attempts to enter correct credentials and if all three attempts are failed, then print "Your account is locked."
+
+
+
+         Nested loop:  loop inside another loop (inner & outer loops)
+
+                 one iteration of the outer loop, executes all the iteration of the inner loop
+
+
+
+
+         1. Print the following shape by using a nested Loop:
+                  * * * * * * * * *
+                  * * * * * * * * *
+                  * * * * * * * * *
+                  * * * * * * * * *
+                  * * * * * * * * *
+                  * * * * * * * * *
+                  * * * * * * * * *
+                  * * * * * * * * *
+
+
+         2. Write a program that asks user to enter a numnber , and check if the number is odd or even.
+                 if it's odd, print "Odd Number"
+                 if it's even, print "Even number"
+
+                 Ask the user "Would you like to enter another number"
+                         if user enters yes, repeat the previous steps
+                         if user enters no, print nothing
+
+                         If user enteres invalid answer, repeat the previous steps
+
+
+
+         lunch:
+         Use a nested loop to print the following shape
+                 *
+                 * *
+                 * * *
+                 * * * *
+                 * * * * *
+                 * * * * * *
+                 * * * * * * *
+                 * * * * * * * *
+                 * * * * * * * * *
+                 * * * * * * * * * *
+
+
+
+
+
+
+
+
+
+
+
+
