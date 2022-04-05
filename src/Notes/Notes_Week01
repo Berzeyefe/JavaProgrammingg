@@ -1,0 +1,63 @@
+Java Day01
+Topic: Introduction to Programming
+	   Environment setup
+
+
+	    /*
+           1. Your class name and file name has to be same
+           2. At JAVA for every opening brackets "{","(","[" you need to have closing brackets "}",")","]" (balanced brackets)
+           3. you need to have semi column at each line of code ";"
+           4. You need to have main method to run your codes
+            */
+
+Warmup task:
+	1. Creata a folder on your desktop named "Java Programming EU8"
+	2. Create a sub folder named "Day01" under the directory "Java Programming EU8"
+	3. Go to Canvas -> EU8-Java Programming -> Modules -> Day01 - Intro to Java Programming
+			3.1 download the pdf file
+			3.2 drag the pdf file from download folder and drop it under the folder "Day01"
+
+
+
+file: store data
+
+		files & thier extensions:
+			text file  					.txt
+			PDF files					.pdf
+			Pictures					.jpg, .png etc
+			word document				.doc
+			excel files					.xlx
+			power point					.ppt
+
+			java files					.java
+
+
+
+folder: store files, organize the files
+
+	Mac: right click -> new folder
+	Windows: right click -> new -> folder
+
+
+
+
+command to check java version
+			java -version
+
+
+Task:
+	1. Create a java project named "JavaPractice" in intelliJ
+	2. create a java project named "ProgrammingLab" in intelliJ
+
+
+/*
+        \t : tab
+        \n: takes it to next line
+        \\ : prints \
+        \" : prints "
+         */
+
+          // Single Line Commenting: it means, JAVA does not run these lines
+                 /*
+                 Whatever in between multiple comment lines or, block comment
+                  */
