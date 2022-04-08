@@ -1,17 +1,18 @@
 package day01_JavaIntro;
 
-public class Test {
 
-    private static Object StringUtility;
+import utilities.StringUtility;
+
+public class Test {
 
     public static void main(String[] args) {
 
-   /*     String str = "Wooden Spoon";
+       String str = "Wooden Spoon";
 
 
         StringUtility.printEachChar(str);
 
-*/
+
 
 
 
