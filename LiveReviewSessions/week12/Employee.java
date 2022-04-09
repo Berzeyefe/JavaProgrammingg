@@ -7,15 +7,15 @@ public class Employee {
           public double salary;
 
           public Employee(){
-
-
+              // no parameter constructor
 
           }
 
 
-    public Employee(String s) {
+
     }
-}
+
+
 
 
 
