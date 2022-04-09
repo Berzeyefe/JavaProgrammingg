@@ -26,6 +26,7 @@ OOP Inheritance: to build IS A relation between classes (parent and child,  supe
 
 		one class only extends one class
 		one class can be extended by multiple classes
+		Aslan Efe Aksel
 
 
 
