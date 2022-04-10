@@ -5,6 +5,7 @@ public class Ebook extends Book{
     int pages;
 
     public Ebook(){
+
         super();
     }
 

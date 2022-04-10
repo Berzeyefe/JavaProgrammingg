@@ -1,5 +1,5 @@
 #JAVA OOP Concepts ##Encapsulation ###What is Encapsulation?
-
+This is a message from Class
 Data Hiding
 Hiding the data by providing private access modifiers
 How do we perform? (PIQ)

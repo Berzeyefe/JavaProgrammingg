@@ -22,6 +22,10 @@ public class Phone {// parent class: only contains the common features of all th
 
     }
 
+    public Phone() {
+
+    }
+
     public void call(long phoneNumber){
         System.out.println(brand + " "+model+" is calling "+phoneNumber);
 }

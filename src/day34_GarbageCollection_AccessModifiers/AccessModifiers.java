@@ -25,6 +25,12 @@ public class AccessModifiers {
         System.out.println(publicData);
         System.out.println(defaultData);
         System.out.println(privateData);
-
     }
 }
+/* // Access modifiers: define the accessibility, controls the access level.
+      1.public : The code is always reachable (visible) by any other class, meaning that it is used to set the access level for classes, attributes, methods, and constructors.
+      2.protected: The code is accessible in the same package and subclasses.
+      3.default: (no modifier): The code is always visible(reachable) within the same class and the same package.
+      4.private: The code is only reachable( accessible, visible) within the same/ declared class.
+      P.S: Variables, constructors , and methods can have all 4 access modifiers.
+ */

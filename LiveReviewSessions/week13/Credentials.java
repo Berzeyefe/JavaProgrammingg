@@ -19,7 +19,7 @@ public class Credentials {
     public void setPassWord(String newPassword){
         if(true)  // we require user to apply some condition
             this.passWord=newPassword;
-        System.exit(-1);
+        System.exit(-1); //usually it means an error happened
     }
 
 }

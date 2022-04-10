@@ -12,9 +12,10 @@ public class GarbageCollection {
 
     public static void main(String[] args) {
 
-  /*
-        //  int n = null;
-       String str = null;
+    /* Garbage collection: Collection of unreferenced objects.
+       Garbage collector: responsible for collecting the unreferenced objects from the java heap and destroys it(finalize)
+        //  int n = null; // null keyword
+       String str = null; // creating a new object
         System.out.println( str.toUpperCase() );
          */
 
