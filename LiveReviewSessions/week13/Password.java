@@ -1,9 +1,10 @@
 package week13;
 
+import java.util.Scanner;
+
 public class Password {
 
-
-        private String password;
+    private String password;
 
         public Password(){
 
