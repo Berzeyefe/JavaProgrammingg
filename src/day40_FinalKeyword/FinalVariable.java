@@ -18,13 +18,13 @@ public class FinalVariable {
 
         final double pi = 3.14;
 
-        //pi = 4.14; final variables can not be reassigned
+        // pi = 4.14; final variables can not be reassigned
         // pi = 5.4;
 
         final String name;
 
         name = "Java";
-        //   name = "Wooden Spoon";
+        //  name = "Wooden Spoon";
         System.out.println(name);
 
         System.out.println("----------------------------------------");
