@@ -1,4 +1,4 @@
-package day41_Exceptions;
+package day36_Inheritance.day41_Exceptions;
 
 public class FinallyBlock {
 

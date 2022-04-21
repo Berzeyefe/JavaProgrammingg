@@ -1,8 +1,7 @@
 package day42_Exceptions;
 
 
-
-    class FadyException extends RuntimeException{ // custom unchecked exception
+   class FadyException extends RuntimeException{ // custom unchecked exception
 
         public FadyException(){
             super("Time for a short break");
