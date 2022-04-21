@@ -1,4 +1,4 @@
-package day40_FinalKeyword;
+package day41_Exceptions;
 
 public class Animal {
 

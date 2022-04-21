@@ -1,4 +1,4 @@
-package day40_FinalKeyword.day41_Exceptions;
+package day41_Exceptions;
 import day39_Recap.cydeoTask.Student;
 public class Checked_vs_Unchecked {
 
