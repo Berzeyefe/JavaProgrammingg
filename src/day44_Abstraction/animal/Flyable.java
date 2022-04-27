@@ -1,4 +1,9 @@
 package day44_Abstraction.animal;
 
-public class Flyable {
+public interface Flyable {
+
+    boolean canFly = true;
+
+    void fly();
+
 }
