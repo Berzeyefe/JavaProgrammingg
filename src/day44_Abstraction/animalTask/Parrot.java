@@ -1,4 +1,4 @@
-package day44_Abstraction.animal;
+package day44_Abstraction.animalTask;
 
 public final class Parrot extends Animal implements Playable, Flyable {
 
@@ -11,7 +11,6 @@ public final class Parrot extends Animal implements Playable, Flyable {
         System.out.println(getName()+" is eating chocolate");
     }
 
-    @Override
     public void play() {
 
     }

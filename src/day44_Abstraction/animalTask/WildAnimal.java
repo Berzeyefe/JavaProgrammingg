@@ -1,4 +1,4 @@
-package day44_Abstraction.animal;
+package day44_Abstraction.animalTask;
 
 public interface WildAnimal {
 

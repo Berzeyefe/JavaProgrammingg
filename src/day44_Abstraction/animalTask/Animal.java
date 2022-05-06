@@ -1,4 +1,4 @@
-package day44_Abstraction.animal;
+package day44_Abstraction.animalTask;
 
 
   /*
@@ -85,8 +85,6 @@ public abstract class Animal {
     }
 
     public  abstract void eat();
-
-    public abstract void play();
 
 
     @Override

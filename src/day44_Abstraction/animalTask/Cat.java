@@ -1,4 +1,4 @@
-package day44_Abstraction.animal;
+package day44_Abstraction.animalTask;
 
 public final class Cat extends Animal implements Playable{
 
@@ -17,7 +17,6 @@ public final class Cat extends Animal implements Playable{
     }
 
 
-    @Override
     public void play() {
 
     }
