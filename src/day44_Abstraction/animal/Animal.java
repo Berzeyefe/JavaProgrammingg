@@ -86,6 +86,8 @@ public abstract class Animal {
 
     public  abstract void eat();
 
+    public abstract void play();
+
 
     @Override
     public String toString() {
