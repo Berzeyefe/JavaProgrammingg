@@ -4,7 +4,7 @@ Topic: Arrays Intro
 Package name: day20_Arrays
 
 Array:
-	1. Single Diemnsional
+	1. Single Diemonsional
 	2. Arrays Utility
 	3. For Each Loop
 	4. Multi-dimensional array
