@@ -21,4 +21,5 @@ public class SalaryCalculator {
         System.out.println("salary = $" + salary);
 
     }
+
 }
