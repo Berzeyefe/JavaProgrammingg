@@ -1,7 +1,7 @@
 package day04_Variables;
- import org.w3c.dom.ls.LSOutput;
 
 public class SalaryCalculator {
+
 
     public static void main(String[] args) {
 
